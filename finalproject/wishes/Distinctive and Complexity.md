@@ -34,30 +34,10 @@ Models
 • **VoteOption:** Model that defines individual voting options, including option text, description, and image.
 
 -------------
-Views
-• **index:** Displays all available polls on the homepage.
-• inprogress: Displays ongoing polls, with options to search for specific polls.
-• **description:** Displays the description of a poll and requests an access code if configured.
-• **voting_view:** Allows users to cast their vote on a specific voting option.
-• **voting_results:** Displays the results of a poll, including vote percentages for each option.
-• **voting_users:** Returns a JSON response containing information about users who have voted in a specific poll.
-• **profile:** Displays a user's profile, along with the ability to create new polls.
-• **edit_profile:** Allows users to edit their profile, including the profile picture.
-• **new_survey:** Allows users to create a new poll or survey with associated options and details.
-• **mychoose:** Displays voting options chosen by a user.
-• **vote:** Displays polls created by the current user.
-• **deleteVote:** Deletes a specific poll created by the user.
-• **editVote:** Allows users to edit an existing poll, including options and associated details.
-• **change_status:** Changes the status of a poll to "closed" if the closing date has passed.
-• **close_vote:** Manually closes a poll if the creator decides to do so.
-• **more_votes:** Displays voting options with the most votes in a closed poll.
-• l**ogin_view:** Handles login authentication.
-• **register:** Handles the registration of new users.
-• **logout_view:** Handles user logouts.
-Additional Functions
-• **create_user_profile:** A post_save signal receiver that automatically creates a profile for a newly registered user.
-• **close_expired_votes:** A function that runs in a separate thread to automatically close polls that have reached their closing date.
-• Use of HTML templates to render pages and display information to users.
+option. • voting_users: Returns a JSON response containing information about users who have voted in a specific poll. • profile: Displays a user's profile, along with the ability to create new polls. • edit_profile: Allows users to edit their profile, including the profile picture. • new_survey: Allows users to create a new poll or survey with associated options and details. • mychoose: Displays voting options chosen by a user. • vote: Displays polls created by the current user. • deleteVote: Deletes a specific poll created by the user. • editVote: Allows users to edit an existing poll, including options and associated details. • change_status: Changes the status of a poll to "closed" if the closing date has passed. • close_vote: Manually closes a poll if the creator decides to do so. • more_votes: Displays voting options with the most votes in a closed poll. • login_view: Handles login authentication. • register: Handles the registration of new users. • logout_view: Handles user logouts. Additional Functions • create_user_profile: A post_save signal receiver that automatically creates a profile for a newly registered user. • close_expired_votes: A function that runs in a separate thread to automatically close polls that have reached their closing date. • Use of HTML templates to render pages and display information to users.
+
+![Uploading image.png…]()
+
 ---------------
 #Conclusions
 The developed voting application offers an effective way to gather opinions and make informed decisions on a variety of topics. By applying the knowledge gained in this course, a robust and comprehensive implementation of the necessary functionalities for creating, participating in, and managing surveys and polls is achieved. This documentation provides an overview of the motivation behind the application, its key features, and how it has been implemented.
