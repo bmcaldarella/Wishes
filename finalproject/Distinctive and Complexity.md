@@ -1,6 +1,10 @@
 #Voting Application Documentation#
 
 This documentation describes the voting application developed by Brandon Michel Caldarella. The application is designed to allow users to create surveys and polls, and for participants to cast their votes on different options. This application was developed using the Django framework, Javascript, HTML5, and CSS3. It is intended to facilitate decision-making and the collection of user opinions on various topics.
+
+
+
+
 --------------
 #Motivation
 
