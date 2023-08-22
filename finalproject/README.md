@@ -17,6 +17,7 @@ The decision to create this voting application was driven by several fundamental
 
 ------------
 #Key Features
+
 • Creation and management of surveys and polls.
 
 • Options to provide detailed descriptions and add images to each voting choice.
