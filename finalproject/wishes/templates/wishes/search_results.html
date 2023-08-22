@@ -1,0 +1,14 @@
+{% extends "wishes/layout.html" %}
+
+{% block body %}
+  <h1>Search results for "{{ query }}"</h1>
+  {% if results %}
+    <ul>
+      {% for vote in results %}
+        <li><a href="{% url 'description' vote_id=vote.id %}">{{ vote.nameVote }}</a></li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <p>No results were found for "{{ query }}".</p>
+  {% endif %}
+{% endblock %}

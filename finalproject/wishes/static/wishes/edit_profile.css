@@ -1,0 +1,84 @@
+.ct-edit-inf {
+    margin: 180px auto;
+    display: flexbox;
+    max-width: 700px;
+    min-width: 300px;
+    width: 100%;
+    padding: 40px;
+    border-radius: 70px;
+    background-color: rgb(246, 245, 245);
+    border: 12px solid rgba(166, 11, 223, 0.361);
+    border-radius: 30px;
+    width: 500px;
+
+
+}
+
+.ct-inf-edit{
+    position: relative;
+    left: 8px;
+
+}
+
+.ct-edit-inf:hover {
+    box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.341);
+}
+.input-field {
+  border-radius: 20px;
+    max-width: 600px;
+    width: 100%;
+    padding: 10px;
+    border: 10px solid #ccc;
+    margin-bottom: 10px;
+}
+.input-field:hover{
+    box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.165);
+}
+
+.btn-edit-inf{
+    cursor: pointer;
+    font-weight: 700;
+    font-family: Helvetica,"sans-serif";
+    transition: all .2s;
+    padding: 10px 20px;
+    border-radius: 100px;
+    background: transparent;
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    position: relative;
+    top:30px;
+  }
+  
+  .btn-edit-inf:hover {
+    background: transparent;
+  }
+  
+  .btn-edit-inf > svg {
+    width: 34px;
+    margin-left: 10px;
+    transition: transform .3s ease-in-out;
+  }
+  
+  .btn-edit-inf:hover svg {
+    transform: translateX(5px);
+  }
+  
+  .btn-edit-inf:active {
+    transform: scale(0.95);
+  }
+  
+  .nav-fixed-edit{
+    margin-top:40px;
+    position: fixed;
+  }
+
+
+  @media screen and (max-width: 634px) {
+    .ct-edit-inf {
+      position: relative;
+      left: -47px;
+
+  }
+}
